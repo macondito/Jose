@@ -24,4 +24,4 @@ const sistema = {
 
 console.log(sistema.administradores)
 
-// se creo un solo objetos con multiples
+// se creo un solo objetos con multiples propiedades

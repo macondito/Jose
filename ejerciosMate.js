@@ -37,3 +37,4 @@ const tiempo = 2; // horas
 const distancia = velocidad * tiempo;
 // la variable de tipo constante distancia, le fue asignado el resultado de velocidad * tiempo y su resultado es 120 que es un dato del tipo number
 
+//
