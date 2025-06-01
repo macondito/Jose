@@ -1,0 +1,4 @@
+git checkout -b XX Crear y cambiar rama
+git add XXXX.js guardar los cambios
+git commit -m "XX" agregar comentario
+git push para subir, pero copiar la respuesta que te da el console si te da error
