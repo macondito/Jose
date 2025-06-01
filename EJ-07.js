@@ -14,4 +14,10 @@ El ejercicio será cargado a git mediante el estándar de pull request y su cód
 
 */ 
 
+const productos = [
+  { nombre: 'arroz', precio: 1, cantidad: 1 },    // 1kg de arroz = 1$
+  { nombre: 'harina', precio: 1.5, cantidad: 1 }, // 1kg de harina = 1.5$
+  { nombre: 'carne', precio: 7, cantidad: 2 },    // 2kg de carne = 7$
+  { nombre: 'tomate', precio: 3, cantidad: 3 }    // 3kg de tomate = 3$
+];
 
