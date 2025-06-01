@@ -21,3 +21,17 @@ const productos = [
   { nombre: 'tomate', precio: 3, cantidad: 3 }    // 3kg de tomate = 3$
 ];
 
+const precioporktomate = productos[3].precio / productos[3].cantidad; // Precio por kg de tomate = 1$
+const precioporkgarroz = productos[0].precio / productos[0].cantidad; // Precio por kg de arroz = 1$
+const precioporkgharina = productos[1].precio / productos[1].cantidad; // Precio por kg de harina = 1.5$
+const precioporkgcarne = productos[2].precio / productos[2].cantidad; // Precio por kg de carne = 3.5$
+const total = productos[0].precio + productos[1].precio + productos[2].precio + productos[3].precio; //total de la compra = 12$
+const descuento = total * 0.1; // descuento si es tu dia de cumpleaños
+
+console.log("precio por kilo del arrzoz es",precioporkgarroz, "$");
+console.log("precio por kilo del harina es",precioporkgharina, "$");
+console.log("precio por kilo del carne es",precioporkgcarne, "$"),
+console.log("precio por kilo del tomate es",precioporktomate, "$"),
+    
+console.log("Total de la compra",total, "$"),
+console.log("si es tu cumpleaños tienes un descuento de",descuento, "$");
