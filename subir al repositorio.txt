@@ -1,0 +1,4 @@
+git checkout -b xxxxx (crear rama)
+git add xxxx.js
+git commit -m "Comentario"
+git push (copiar el  mensaje git push que te da despues)

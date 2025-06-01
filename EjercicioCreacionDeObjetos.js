@@ -11,5 +11,5 @@ const version = 0.1
 
 const sistema = { administradores, empleados, invitados, color, idioma, version};
 
-// se crearon un conjunto de objetos para dentro del objeto sistema.gi
+// se crearon un conjunto de objetos para dentro del objeto sistema.git
 console.log(sistema)
